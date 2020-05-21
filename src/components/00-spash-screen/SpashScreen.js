@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
 import { openWcLogo } from './open-wc-logo.js';
 
-export class WebcomponentProject extends LitElement {
+export class SplashScreen extends LitElement {
   static get properties() {
     return {
       title: { type: String },
@@ -12,7 +12,7 @@ export class WebcomponentProject extends LitElement {
   constructor() {
     super();
 
-    this.title = "Spider-man";
+    this.title = "Splash Screen Component";
   }
   
 
