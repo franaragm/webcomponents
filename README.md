@@ -11,8 +11,7 @@
 To get started:
 
 ```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
+npm install
 ```
 
 ## Scripts
@@ -22,6 +21,10 @@ npm init @open-wc
 - `build` builds your app and outputs it in your `dist` directory
 - `test` runs your test suite with Karma
 - `lint` runs the linter for your project
+
+## StoryBook
+
+[https://storybook.js.org/](https://storybook.js.org/)
 
 ## Tooling configs
 

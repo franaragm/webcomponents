@@ -68,19 +68,9 @@ export class SplashScreen extends LitElement {
 
         <p>${this.title}</p>
 
-        <p>Edit <code>src/WebcomponentProject.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/developing/#code-examples"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
       </main>
 
       <p class="app-footer">
-        🚽 Made with love by
         <a
           target="_blank"
           rel="noopener noreferrer"
