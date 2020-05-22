@@ -64,7 +64,6 @@ export class SplashScreen extends LitElement {
     return html`
       <main>
         <div class="logo">${openWcLogo}</div>
-        <h1>My app</h1>
 
         <p>${this.title}</p>
 
