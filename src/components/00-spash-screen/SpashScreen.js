@@ -1,5 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 import { openWcLogo } from './open-wc-logo.js';
+import '../01-counter/my-counter-component.js';
 
 export class SplashScreen extends LitElement {
   static get properties() {
@@ -66,6 +67,8 @@ export class SplashScreen extends LitElement {
         <div class="logo">${openWcLogo}</div>
 
         <p>${this.title}</p>
+
+        <my-counter></my-counter>
 
       </main>
 
