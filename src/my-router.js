@@ -2,6 +2,7 @@ import { Router } from '@vaadin/router';
 
 import './components/00-spash-screen/splash-screen-component.js';
 import './components/01-counter/my-counter-component.js';
+import './components/02-propiedades-atributos/properties-attributes-component.js';
 
 // mixin
 export const myRouter = (BaseClass) =>
@@ -30,6 +31,13 @@ export const myRouter = (BaseClass) =>
                             component: 'my-counter',
                             action: () => {
                                 this.activePage = 'counter';
+                            },
+                        },
+                        {
+                            path: '/properties/:message',
+                            component: 'properties-and-attributes',
+                            action: () => {
+                                this.activePage = 'properties';
                             },
                         },
                     ],

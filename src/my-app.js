@@ -32,6 +32,7 @@ class App extends myRouter(LitElement) {
             <nav>
                 <a href="/" class=${this.activePage === 'splash-screen' ? 'active' : ''}>splash-screen</a>
                 <a href="/counter" class=${this.activePage === 'counter' ? 'active' : ''}>counter</a>
+                <a href="/properties/Hello%20World" class=${this.activePage === 'properties' ? 'active' : ''}>properties</a>
             </nav>
             <main></main>
     `;
